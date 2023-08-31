@@ -20,11 +20,11 @@ namespace APIBookstore.Controllers
                 _context.TodoProducts.Remove(x);
             _context.SaveChanges();
 
-            _context.TodoProducts.Add(new Product { Id = "1", Name = "Book1", Price = 24, Quantity = 1, Category = "action", Img = "img1" });
-            _context.TodoProducts.Add(new Product { Id = "2", Name = "Book2", Price = 50, Quantity = 1, Category = "action", Img = "img2" });
-            _context.TodoProducts.Add(new Product { Id = "3", Name = "Book3", Price = 20, Quantity = 2, Category = "action", Img = "img3" });
-            _context.TodoProducts.Add(new Product { Id = "4", Name = "Book4", Price = 10, Quantity = 1, Category = "action", Img = "img1" });
-            _context.TodoProducts.Add(new Product { Id = "5", Name = "Book5", Price = 15, Quantity = 5, Category = "action", Img = "img1" });
+            _context.TodoProducts.Add(new Product { Id = "1", Name = "Sherlock Holmes 1", Price = 24, Quantity = 1, Category = "Crime", Img = "img1" });
+            _context.TodoProducts.Add(new Product { Id = "2", Name = "O Mundo de Sofia", Price = 50, Quantity = 1, Category = "Aventrua", Img = "img2" });
+            _context.TodoProducts.Add(new Product { Id = "3", Name = "Arsène Luín", Price = 20, Quantity = 2, Category = "Suspense", Img = "img3" });
+            _context.TodoProducts.Add(new Product { Id = "4", Name = "Sherlock Holmes 2", Price = 10, Quantity = 1, Category = "action", Img = "img1" });
+            _context.TodoProducts.Add(new Product { Id = "5", Name = "Sherlock Holmes 3", Price = 15, Quantity = 5, Category = "action", Img = "img1" });
 
             _context.SaveChanges();
         }
